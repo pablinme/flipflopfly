@@ -1,0 +1,124 @@
+CREATE DATABASE `chasqui` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+/* Helpers */
+CREATE TABLE `timezone` (
+  id int(11) NOT NULL default '0',
+  gmt_offset double default '0',
+  dst_offset double default NULL,
+  timezone_code varchar(4) default NULL,
+  PRIMARY KEY  (id)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `countries` (
+  `idCountry` int(5) NOT NULL AUTO_INCREMENT,
+  `countryCode` char(2) NOT NULL DEFAULT '',
+  `countryName` varchar(45) NOT NULL DEFAULT '',
+  `capital` varchar(30) DEFAULT NULL,
+  `continent` char(2) DEFAULT NULL,
+  PRIMARY KEY (`idCountry`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `cities` (
+  `country_code` varchar(10) DEFAULT NULL,
+  `region` varchar(256) DEFAULT NULL,
+  `population` int(10) unsigned DEFAULT NULL,
+  `latitude` varchar(256) DEFAULT NULL,
+  `longitude` varchar(256) DEFAULT NULL,
+  `combined` varchar(256) DEFAULT NULL,
+  KEY `combined` (`combined`(255))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `members` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(30) NOT NULL,
+  `name` varchar(30) NOT NULL DEFAULT '',
+  `last_name` varchar(30) NOT NULL DEFAULT '',
+  `gender` char(1) NOT NULL,
+  `country` varchar(30) NOT NULL DEFAULT '',
+  `timezone` varchar(2) NOT NULL,
+  `dst` char(1) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `join_date` datetime DEFAULT NULL,
+  `password` char(128) NOT NULL,
+  `salt` char(128) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `ratings` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `total` int(5) NOT NULL DEFAULT '0',
+  `raterId` int(11) unsigned NOT NULL,
+  `ratedId` int(11) unsigned NOT NULL,
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `fk_rater_id_idx` (`raterId`),
+  KEY `fk_rated_id_idx` (`ratedId`),
+  CONSTRAINT `fk_rated_id` FOREIGN KEY (`ratedId`) REFERENCES `members` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `fk_rater_id` FOREIGN KEY (`raterId`) REFERENCES `members` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `login_attempts` (
+  `user_id` int(11) NOT NULL,
+  `time` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `recoveryemails` (
+  `ID` bigint(20) unsigned zerofill NOT NULL AUTO_INCREMENT,
+  `UserID` bigint(20) NOT NULL,
+  `Key` varchar(32) NOT NULL,
+  `expDate` datetime NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `sessions` (
+  `id` char(128) NOT NULL,
+  `set_time` char(10) NOT NULL,
+  `data` text NOT NULL,
+  `session_key` char(128) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `categories` (  
+    `id`          INT(11) unsigned NOT NULL AUTO_INCREMENT,  
+    `name`        VARCHAR(255) NOT NULL,  
+    `description`     VARCHAR(255) NOT NULL,  
+    PRIMARY KEY (id)  
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;   
+
+/* requests table: */
+CREATE TABLE `request` (  
+`id`        INT(11) unsigned NOT NULL AUTO_INCREMENT,
+`product`   INT(11) unsigned,
+`from`   INT(5) unsigned,
+`to`   INT(5) unsigned,
+`compensation`  VARCHAR(255) NOT NULL,  
+`details`       VARCHAR(255) NOT NULL,
+`negotiable`    BOOLEAN NOT NULL,    
+`date`      datetime NOT NULL,
+`local_date` datetime DEFAULT NULL,  
+`user_id`        INT(11) unsigned NOT NULL,  
+PRIMARY KEY (`id`),
+KEY `fk_topics_user_id_idx` (`user_id`),
+CONSTRAINT `fk_topics_user_id` FOREIGN KEY (`user_id`) REFERENCES `members` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
+    
+/* offers table: */
+
+
+
+/* comments table: */
+CREATE TABLE `comments` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) unsigned NOT NULL,
+  `body` text,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_comments_user_id_idx` (`user_id`),
+  CONSTRAINT `fk_comments_user_id` FOREIGN KEY (`user_id`) REFERENCES `members` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
+

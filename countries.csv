@@ -1,0 +1,251 @@
+idCountry,countryCode,countryName,capital,continent
+1,AD,Andorra,"Andorra la Vella",EU
+2,AE,"United Arab Emirates","Abu Dhabi",AS
+3,AF,Afghanistan,Kabul,AS
+4,AG,"Antigua and Barbuda","St. John's",NA
+5,AI,Anguilla,"The Valley",NA
+6,AL,Albania,Tirana,EU
+7,AM,Armenia,Yerevan,AS
+8,AO,Angola,Luanda,AF
+9,AQ,Antarctica,,AN
+10,AR,Argentina,"Buenos Aires",SA
+11,AS,"American Samoa","Pago Pago",OC
+12,AT,Austria,Vienna,EU
+13,AU,Australia,Canberra,OC
+14,AW,Aruba,Oranjestad,NA
+15,AX,Åland,Mariehamn,EU
+16,AZ,Azerbaijan,Baku,AS
+17,BA,"Bosnia and Herzegovina",Sarajevo,EU
+18,BB,Barbados,Bridgetown,NA
+19,BD,Bangladesh,Dhaka,AS
+20,BE,Belgium,Brussels,EU
+21,BF,"Burkina Faso",Ouagadougou,AF
+22,BG,Bulgaria,Sofia,EU
+23,BH,Bahrain,Manama,AS
+24,BI,Burundi,Bujumbura,AF
+25,BJ,Benin,Porto-Novo,AF
+26,BL,"Saint Barthélemy",Gustavia,NA
+27,BM,Bermuda,Hamilton,NA
+28,BN,Brunei,"Bandar Seri Begawan",AS
+29,BO,Bolivia,Sucre,SA
+30,BQ,Bonaire,,NA
+31,BR,Brazil,Brasília,SA
+32,BS,Bahamas,Nassau,NA
+33,BT,Bhutan,Thimphu,AS
+34,BV,"Bouvet Island",,AN
+35,BW,Botswana,Gaborone,AF
+36,BY,Belarus,Minsk,EU
+37,BZ,Belize,Belmopan,NA
+38,CA,Canada,Ottawa,NA
+39,CC,"Cocos [Keeling] Islands","West Island",AS
+40,CD,"Democratic Republic of the Congo",Kinshasa,AF
+41,CF,"Central African Republic",Bangui,AF
+42,CG,"Republic of the Congo",Brazzaville,AF
+43,CH,Switzerland,Berne,EU
+44,CI,"Ivory Coast",Yamoussoukro,AF
+45,CK,"Cook Islands",Avarua,OC
+46,CL,Chile,Santiago,SA
+47,CM,Cameroon,Yaoundé,AF
+48,CN,China,Beijing,AS
+49,CO,Colombia,Bogotá,SA
+50,CR,"Costa Rica","San José",NA
+51,CU,Cuba,Havana,NA
+52,CV,"Cape Verde",Praia,AF
+53,CW,Curacao,Willemstad,NA
+54,CX,"Christmas Island","The Settlement",AS
+55,CY,Cyprus,Nicosia,EU
+56,CZ,Czechia,Prague,EU
+57,DE,Germany,Berlin,EU
+58,DJ,Djibouti,Djibouti,AF
+59,DK,Denmark,Copenhagen,EU
+60,DM,Dominica,Roseau,NA
+61,DO,"Dominican Republic","Santo Domingo",NA
+62,DZ,Algeria,Algiers,AF
+63,EC,Ecuador,Quito,SA
+64,EE,Estonia,Tallinn,EU
+65,EG,Egypt,Cairo,AF
+66,EH,"Western Sahara","El Aaiún",AF
+67,ER,Eritrea,Asmara,AF
+68,ES,Spain,Madrid,EU
+69,ET,Ethiopia,"Addis Ababa",AF
+70,FI,Finland,Helsinki,EU
+71,FJ,Fiji,Suva,OC
+72,FK,"Falkland Islands",Stanley,SA
+73,FM,Micronesia,Palikir,OC
+74,FO,"Faroe Islands",Tórshavn,EU
+75,FR,France,Paris,EU
+76,GA,Gabon,Libreville,AF
+77,GB,"United Kingdom",London,EU
+78,GD,Grenada,"St. George's",NA
+79,GE,Georgia,Tbilisi,AS
+80,GF,"French Guiana",Cayenne,SA
+81,GG,Guernsey,"St Peter Port",EU
+82,GH,Ghana,Accra,AF
+83,GI,Gibraltar,Gibraltar,EU
+84,GL,Greenland,Nuuk,NA
+85,GM,Gambia,Banjul,AF
+86,GN,Guinea,Conakry,AF
+87,GP,Guadeloupe,Basse-Terre,NA
+88,GQ,"Equatorial Guinea",Malabo,AF
+89,GR,Greece,Athens,EU
+90,GS,"South Georgia and the South Sandwich Islands",Grytviken,AN
+91,GT,Guatemala,"Guatemala City",NA
+92,GU,Guam,Hagåtña,OC
+93,GW,Guinea-Bissau,Bissau,AF
+94,GY,Guyana,Georgetown,SA
+95,HK,"Hong Kong","Hong Kong",AS
+96,HM,"Heard Island and McDonald Islands",,AN
+97,HN,Honduras,Tegucigalpa,NA
+98,HR,Croatia,Zagreb,EU
+99,HT,Haiti,Port-au-Prince,NA
+100,HU,Hungary,Budapest,EU
+101,ID,Indonesia,Jakarta,AS
+102,IE,Ireland,Dublin,EU
+103,IL,Israel,,AS
+104,IM,"Isle of Man",Douglas,EU
+105,IN,India,"New Delhi",AS
+106,IO,"British Indian Ocean Territory",,AS
+107,IQ,Iraq,Baghdad,AS
+108,IR,Iran,Tehran,AS
+109,IS,Iceland,Reykjavik,EU
+110,IT,Italy,Rome,EU
+111,JE,Jersey,"Saint Helier",EU
+112,JM,Jamaica,Kingston,NA
+113,JO,Jordan,Amman,AS
+114,JP,Japan,Tokyo,AS
+115,KE,Kenya,Nairobi,AF
+116,KG,Kyrgyzstan,Bishkek,AS
+117,KH,Cambodia,"Phnom Penh",AS
+118,KI,Kiribati,Tarawa,OC
+119,KM,Comoros,Moroni,AF
+120,KN,"Saint Kitts and Nevis",Basseterre,NA
+121,KP,"North Korea",Pyongyang,AS
+122,KR,"South Korea",Seoul,AS
+123,KW,Kuwait,"Kuwait City",AS
+124,KY,"Cayman Islands","George Town",NA
+125,KZ,Kazakhstan,Astana,AS
+126,LA,Laos,Vientiane,AS
+127,LB,Lebanon,Beirut,AS
+128,LC,"Saint Lucia",Castries,NA
+129,LI,Liechtenstein,Vaduz,EU
+130,LK,"Sri Lanka",Colombo,AS
+131,LR,Liberia,Monrovia,AF
+132,LS,Lesotho,Maseru,AF
+133,LT,Lithuania,Vilnius,EU
+134,LU,Luxembourg,Luxembourg,EU
+135,LV,Latvia,Riga,EU
+136,LY,Libya,Tripoli,AF
+137,MA,Morocco,Rabat,AF
+138,MC,Monaco,Monaco,EU
+139,MD,Moldova,Chişinău,EU
+140,ME,Montenegro,Podgorica,EU
+141,MF,"Saint Martin",Marigot,NA
+142,MG,Madagascar,Antananarivo,AF
+143,MH,"Marshall Islands",Majuro,OC
+144,MK,Macedonia,Skopje,EU
+145,ML,Mali,Bamako,AF
+146,MM,"Myanmar [Burma]","Nay Pyi Taw",AS
+147,MN,Mongolia,"Ulan Bator",AS
+148,MO,Macao,Macao,AS
+149,MP,"Northern Mariana Islands",Saipan,OC
+150,MQ,Martinique,Fort-de-France,NA
+151,MR,Mauritania,Nouakchott,AF
+152,MS,Montserrat,Plymouth,NA
+153,MT,Malta,Valletta,EU
+154,MU,Mauritius,"Port Louis",AF
+155,MV,Maldives,Malé,AS
+156,MW,Malawi,Lilongwe,AF
+157,MX,Mexico,"Mexico City",NA
+158,MY,Malaysia,"Kuala Lumpur",AS
+159,MZ,Mozambique,Maputo,AF
+160,NA,Namibia,Windhoek,AF
+161,NC,"New Caledonia",Noumea,OC
+162,NE,Niger,Niamey,AF
+163,NF,"Norfolk Island",Kingston,OC
+164,NG,Nigeria,Abuja,AF
+165,NI,Nicaragua,Managua,NA
+166,NL,Netherlands,Amsterdam,EU
+167,NO,Norway,Oslo,EU
+168,NP,Nepal,Kathmandu,AS
+169,NR,Nauru,,OC
+170,NU,Niue,Alofi,OC
+171,NZ,"New Zealand",Wellington,OC
+172,OM,Oman,Muscat,AS
+173,PA,Panama,"Panama City",NA
+174,PE,Peru,Lima,SA
+175,PF,"French Polynesia",Papeete,OC
+176,PG,"Papua New Guinea","Port Moresby",OC
+177,PH,Philippines,Manila,AS
+178,PK,Pakistan,Islamabad,AS
+179,PL,Poland,Warsaw,EU
+180,PM,"Saint Pierre and Miquelon",Saint-Pierre,NA
+181,PN,"Pitcairn Islands",Adamstown,OC
+182,PR,"Puerto Rico","San Juan",NA
+183,PS,Palestine,,AS
+184,PT,Portugal,Lisbon,EU
+185,PW,Palau,"Melekeok - Palau State Capital",OC
+186,PY,Paraguay,Asunción,SA
+187,QA,Qatar,Doha,AS
+188,RE,Réunion,Saint-Denis,AF
+189,RO,Romania,Bucharest,EU
+190,RS,Serbia,Belgrade,EU
+191,RU,Russia,Moscow,EU
+192,RW,Rwanda,Kigali,AF
+193,SA,"Saudi Arabia",Riyadh,AS
+194,SB,"Solomon Islands",Honiara,OC
+195,SC,Seychelles,Victoria,AF
+196,SD,Sudan,Khartoum,AF
+197,SE,Sweden,Stockholm,EU
+198,SG,Singapore,Singapore,AS
+199,SH,"Saint Helena",Jamestown,AF
+200,SI,Slovenia,Ljubljana,EU
+201,SJ,"Svalbard and Jan Mayen",Longyearbyen,EU
+202,SK,Slovakia,Bratislava,EU
+203,SL,"Sierra Leone",Freetown,AF
+204,SM,"San Marino","San Marino",EU
+205,SN,Senegal,Dakar,AF
+206,SO,Somalia,Mogadishu,AF
+207,SR,Suriname,Paramaribo,SA
+208,SS,"South Sudan",Juba,AF
+209,ST,"São Tomé and Príncipe","São Tomé",AF
+210,SV,"El Salvador","San Salvador",NA
+211,SX,"Sint Maarten",Philipsburg,NA
+212,SY,Syria,Damascus,AS
+213,SZ,Swaziland,Mbabane,AF
+214,TC,"Turks and Caicos Islands","Cockburn Town",NA
+215,TD,Chad,N'Djamena,AF
+216,TF,"French Southern Territories",Port-aux-Français,AN
+217,TG,Togo,Lomé,AF
+218,TH,Thailand,Bangkok,AS
+219,TJ,Tajikistan,Dushanbe,AS
+220,TK,Tokelau,,OC
+221,TL,"East Timor",Dili,OC
+222,TM,Turkmenistan,Ashgabat,AS
+223,TN,Tunisia,Tunis,AF
+224,TO,Tonga,Nuku'alofa,OC
+225,TR,Turkey,Ankara,AS
+226,TT,"Trinidad and Tobago","Port of Spain",NA
+227,TV,Tuvalu,Funafuti,OC
+228,TW,Taiwan,Taipei,AS
+229,TZ,Tanzania,Dodoma,AF
+230,UA,Ukraine,Kyiv,EU
+231,UG,Uganda,Kampala,AF
+232,UM,"U.S. Minor Outlying Islands",,OC
+233,US,"United States",Washington,NA
+234,UY,Uruguay,Montevideo,SA
+235,UZ,Uzbekistan,Tashkent,AS
+236,VA,"Vatican City",Vatican,EU
+237,VC,"Saint Vincent and the Grenadines",Kingstown,NA
+238,VE,Venezuela,Caracas,SA
+239,VG,"British Virgin Islands","Road Town",NA
+240,VI,"U.S. Virgin Islands","Charlotte Amalie",NA
+241,VN,Vietnam,Hanoi,AS
+242,VU,Vanuatu,"Port Vila",OC
+243,WF,"Wallis and Futuna",Mata-Utu,OC
+244,WS,Samoa,Apia,OC
+245,XK,Kosovo,Pristina,EU
+246,YE,Yemen,Sanaa,AS
+247,YT,Mayotte,Mamoutzou,AF
+248,ZA,"South Africa",Pretoria,AF
+249,ZM,Zambia,Lusaka,AF
+250,ZW,Zimbabwe,Harare,AF
