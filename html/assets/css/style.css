@@ -1,0 +1,315 @@
+body 
+{
+	padding-top: 40px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+ 
+.sidebar-nav 
+{
+	padding: 9px 0;
+}
+
+/* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+    
+/* USER INFO */
+img { border: 0;}
+
+#userStats { display: block; width: auto; border: 1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding: 12px; }
+
+#userStats .pic { float: left; display: block; margin-right: 10px; }
+#userStats .pic a img { padding: 7px; background: #fff; border: 1px solid #ccc; }
+
+#userStats .data { float: left; display: block; box-sizing: border-box; -moz-box-sizing: border-box; }
+#userStats .data h1 { color: #474747; line-height: 1.6em; text-shadow: 0px 1px 1px #fff; }
+#userStats .data h3 { color: #666; line-height: 0.9em; margin-bottom: 5px; }
+#userStats .data h4 { font-size: 1.2em; line-height: 1.3em; }
+
+#userStats .data .sep { clear: both; margin-top: 40px; width: 320px; height: 1px; margin-bottom: 0; }
+#userStats .data ul.numbers { list-style: none; width: 320px; padding-top: 7px; margin-top: 0; }
+#userStats .data ul.numbers li { width: 95px; float: left; display: block; padding-left: 8px; height: 50px; text-transform: uppercase; }
+#userStats .data ul.numbers li strong { color: #434343; display: block; font-size: 3.4em; line-height: 1.1em; font-weight: bold; }
+
+
+/* RATING SYSTEM */
+.ratings 
+{
+	/* border:     1px solid #CCC; */
+    overflow:   visible;
+    /* padding:    10px; */
+    position:   relative;
+    width:      180px;
+    /* height:     100px; */
+}
+.ratings_stars_lock
+{
+    background: url('/assets/img/star.png') no-repeat #F5F5F5;
+    float:      left;
+    height:     30px;
+    padding:    2px;
+    width:      32px;
+}
+.ratings_stars 
+{
+    background: url('/assets/img/star.png') no-repeat #FFFFFF;
+    float:      left;
+    height:     30px;
+    padding:    2px;
+    width:      32px;
+}
+
+.ratings_vote 
+{
+    background: url('/assets/img/starVoted.png') no-repeat #F5F5F5;
+}
+.ratings_over 
+{
+    background: url('/assets/img/starOver.png') no-repeat #FFFFFF;
+}
+
+ /* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing.row 
+{
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.marketing h2 
+{
+    font-weight: normal;
+}
+    
+.marketing .span4 p 
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      /* padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */ 
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+/*---------------------------------
+	Content && Posts && Comments
+---------------------------------*/
+
+/*
+#content
+{
+	position: absolute;
+	font: 16px/1.5 'PT Serif', Times, Cambria, serif;
+	width: 580px;
+	left: 50%;
+	margin-left: -100px;
+}
+*/
+#content p,
+#content ul
+{
+	margin-bottom:25px;
+}
+
+#content ul
+{
+	padding-left:20px;
+}
+
+#content li
+{
+	margin-bottom:5px;
+}
+
+#content div.actions
+{
+	margin-top:25px;
+	font-size:14px;
+	font-family:'Open Sans Condensed', sans-serif;
+}
+
+#content div.actions .readmore
+{
+	text-decoration: none !important;
+	padding:0 2px;
+}
+
+#content div.actions .readmore:hover
+{
+	background-color:#389dc1;
+	color:#fff;
+}
+
+#content div.actions .comments
+{
+	color:#ccc;
+	margin-left:10px;
+	text-decoration:none;
+}
+
+.topic
+{
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.date
+{
+	margin: 0 0 0 20px;
+	position: relative;
+}
+
+.date:before
+{
+	width:18px;
+	height:18px;
+	position:absolute;
+	content:'';
+	left: -22px;
+	top: -1px;
+	background: #fff url(../img/calendar.png) no-repeat 98% center;
+}
+
+.comment
+{
+	padding: 50px 0 15px 0;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.comment .date
+{
+	font: bold 12px 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	color: #a7a7a7;
+	margin: 24px 0 30px 20px;
+	position: relative;
+}
+
+.comment .date:before
+{
+	width:18px;
+	height:18px;
+	position:absolute;
+	content:'';
+	left: -22px;
+	top: -1px;
+	background: #fff url(../img/calendar.png) no-repeat 98% center;
+}
+
+/*----------------------------
+	Footer
+-----------------------------*/
+
+.footer
+{
+    margin: 40px 0; 
+    text-align: center; 
+}
